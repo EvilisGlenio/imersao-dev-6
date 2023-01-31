@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de Moedas
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    </div>
+    <a href="./index.html">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        <img src="./assets/cryptonauta-1.png" alt="Um empreendedor usando um óculos de realidade virtual convertendo suas moedas." >
+    </a>
+
+    <form>
+        <ul>
+            Name: <input type="text" name="name" class="name">
+            <div>
+                Aporte: <input type="number" name="value" class="value">
+                <select id="coins">
+                    <option value="usd">USD</option>
+                    <option value="eur" selected>EUR</option>
+                    <option value="btc">BTC</option>
+                    <option value="eth">ETH</option>
+                </select>
+            </div>
+            <input class="button" type="button" value="calcular" onclick="calcular()">
+            <div id="res"></div>
+        </ul>
+    </form> 
+
+    <script src="./script copy.js"></script>
+</body>
+</html>
