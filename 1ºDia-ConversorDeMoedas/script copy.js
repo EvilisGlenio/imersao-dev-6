@@ -5,8 +5,6 @@
 
 
  function calcular() {
-  const selected = document.querySelector('selected')
-
-  console.log(selected)
+    const selected = document.querySelector('selected')
  }
-
+ 
