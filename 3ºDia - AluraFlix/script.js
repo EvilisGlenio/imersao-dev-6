@@ -1,3 +1,5 @@
+const section = document.querySelector('#section')
+
 var moviesList = [
 'https://m.media-amazon.com/images/M/MV5BMjE4NzIxODg2MF5BMl5BanBnXkFtZTcwNTYyNjQ4OA@@._V1_FMjpg_UX1000_.jpg',
 'https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_.jpg',
@@ -37,7 +39,6 @@ moviesList.forEach((string,index,array) => {
             '<h3>'+ titleList[index] +'</h3>'+
             '<img src='+ moviesList[index] +'>'
         +'</div>')
-
 })
 
 

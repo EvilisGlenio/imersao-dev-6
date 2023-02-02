@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto Mono", monospace;
     text-align: center;
@@ -6,10 +12,17 @@ body {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+    
     color: white;
 
-    }
-  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 15px;
+
+    padding: 0 2%;
+    width: 100%;
+  }
   .container {
     width: 100%;
     text-align: center;
@@ -43,5 +56,8 @@ body {
   
   img {
     max-height: 250px;
+  }
+  h3{
+    margin-bottom: 10px;
   }
   
